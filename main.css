@@ -1,0 +1,18 @@
+.card img{
+    height: 300px;
+    object-fit: contain;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.forgot{
+    text-decoration: none;
+}
+.user {
+    align-items: center;
+    padding: 30px;
+    width: 10px;
+    width: 50%;
+}

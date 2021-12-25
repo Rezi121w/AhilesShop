@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AhilesShop</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AhilesShop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="market.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="blanck" href="https://rezi121w.github.io/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="blanck" href="add.html">AddMoney</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Exit</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr>
+<div class=" d-flex justify-content-center flex-column align-items-center">
+  <h4>Basket</h4>
+  <h4>Total price: <span id="prie">0</span></h4>
+  <a onclick="buy()" href="#" class="btn btn-primary">Buy</a>
+  <br>
+  <a onclick="clearbasket()" href="#" class="btn btn-primary">Clear</a>
+</div>
+<hr>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card w-18 my-4">
+          <img src="https://www.buro247.ru/images/verstka/1618402579/e52fcd21ce6f575cdd3e410fad620895.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex align-items-center flex-column">
+            <h5 class="card-title">Blue God</h5>
+            <p class="card-text">Cost: 350</p>
+            <div class="d-flex justify-content-center">
+            <a onclick="blue()" href="#" class="btn btn-primary">Buy</a>
+            <a  onclick="basket('Blue God', 350)" href="#" class="btn btn-outline-info"> Add to Basket</a>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card w-18 my-4">
+          <img src="https://i.pinimg.com/originals/45/80/fe/4580feddbb380d7121960a416a0ad157.jpg" class="card-img-top" alt="...">
+          <div class="card-body d-flex align-items-center flex-column">
+            <h5 class="card-title">TechnoBoots</h5>
+            <p class="card-text">Cost: 500</p>
+            <div>
+            <a onclick="TechnoBoots()" href="#" class="btn btn-primary">Buy</a>
+            <a  onclick="basket('TechnoBoots', 500)" href="#" class="btn btn-outline-info">Add to Basket</a>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card w-18 my-4">
+          <img src="https://img06.rl0.ru/afisha/e730x-i/daily.afisha.ru/uploads/images/c/0c/c0c5e0329f0f4f9e6319a916e5e96d8c.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex align-items-center flex-column">
+            <h5 class="card-title">White_God</h5>
+            <p class="card-text">Cost:700</p>
+            <div>
+            <a onclick="White_God()" href="#" class="btn btn-primary">Buy</a>
+            <a  onclick="basket('White_God', 700)" href="#" class="btn btn-outline-info">Add to Basket</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card w-18 my-4">
+          <img src="https://img09.rl0.ru/afisha/-x-i/daily.afisha.ru/uploads/images/4/77/47739356c76e5fd38e5f83cd8132eadb.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex align-items-center flex-column ">
+            <h5 class="card-title">WildWiler</h5>
+            <p class="card-text">Cost: 888</p>
+            <div>
+            <a onclick="WildWiler()" href="#" class="btn btn-primary">Buy</a>
+            <a  onclick="basket('WildWiler', 888)" href="#" class="btn btn-outline-info">Add to Basket</a>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card w-18 my-4">
+          <img src="images/model.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex align-items-center flex-column ">
+            <h5 class="card-title">AhilesBoots</h5>
+            <p class="card-text">Cost: 1200</p>
+            <div>
+            <a onclick="model()" href="#" class="btn btn-primary">Buy</a>
+            <a  onclick="basket('AhilesBoots', 1200)" href="#" class="btn btn-outline-info">Add to Basket</a>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="scriptbuy.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

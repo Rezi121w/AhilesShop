@@ -1,0 +1,164 @@
+body {
+	height: 100ex;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: linear-gradient(110deg, #fff 75%, #15e0c5 25%);
+	padding: 0;
+	margin: 0;
+}
+.navigation {
+	width: 100%;
+	margin-top: 6px;
+	position: sticky;
+	display: flex;
+}
+.logodiv{
+	width: 13%;
+	display: flex;
+}
+.logo {
+	max-width: 60px;
+	margin-left: 26%;
+}
+.nav-menu {
+	width: 19%;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+}
+.nav-item {
+	padding: 10px;
+}
+.nav-link {
+	text-decoration: none;
+	color: #15e0c5;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	font-weight: bold;
+}
+.nav-link:hover {
+	border-bottom: 2px solid #15e0c5;
+}
+.search-block {
+	width: 42%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 13px;
+	padding-left: 5px;
+}
+.search {
+	display: flex;
+	background-color: #fff;
+	border: 2px solid #15e0c5;
+	border-radius: 30px;
+	width: 50%;
+}
+
+.search-input {
+	padding-left: 4%;
+	width: 90%;
+	height: 25px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: #6f6f6f;
+}
+.personal-item {
+	width: 12%;
+	margin-top: 21px;
+}
+.auth {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.auth-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #6f6f6f;
+	text-decoration: none;
+	font-weight: bold;	
+	font-size: 16px;
+}
+.auth-link i {
+	padding: 0 5px;
+	font-size: 20px;
+	color: #15e0c5;
+}
+.auth-link:hover {
+	color: #15e0c5;
+}
+
+.main-info {
+	position: static;
+	margin-top: -4%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 60%;
+	width: 100%;
+}
+
+.text h1 {
+	color: #000;
+	font-size: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+.text span {
+	color: #15e0c5;
+	text-decoration: none;
+}
+
+.tagline {
+	color: #6f6f6f;
+	font-size: 20px;
+	margin: 10px;
+	padding: 0;
+}
+
+.info-link {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+}
+
+.text-text {
+	border: 2px solid #15e0c5;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 15px;
+	transition: .3s;
+}
+
+.read {
+	color: #15e0c5;
+}
+
+.read:hover {
+	color: #fff;
+	background: #15e0c5;
+}
+
+.shop {
+	color: #fff;
+	background: #15e0c5;
+}
+
+.shop:hover {
+	color: #15e0c5;
+	background: #fff;
+}
